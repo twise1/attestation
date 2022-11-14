@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background: url(Untitled.png);
+    background-size: 100%; 
+    color: white;
+    font-family: 'Roboto';
+}
+
+.golova {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+
+ h1 {
+    position: absolute;
+    top: 50%; /* Отступ в процентах от верхнего края окна */
+    left: 50%; /* Отступ в процентах от левого края окна */
+    text-align:  center;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+h2 {
+    margin-top: 5px;
+}
+
+
+
